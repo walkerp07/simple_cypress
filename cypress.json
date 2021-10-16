@@ -1,0 +1,21 @@
+{
+  "retries": 1,
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 40000,
+  "pageLoadTimeout": 60000,
+  "videoCompression": true,
+  "viewportHeight": 720,
+  "viewportWidth": 1280,
+  "reporter": "cypress-multi-reporters",
+  "screenshotOnRunFailure": true,
+  "screenshotsFolder": "cypress/12032015/screenshots",
+  "videoCompression": 40,
+  "videosFolder": "cypress/12032015/videos",
+  "video": true,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": true,
+    "json": false
+  }
+}
